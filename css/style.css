@@ -51,8 +51,9 @@
 }
 
 .section-oscura {
-    color: white;
-    background-color: var(--color_0);
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 100px 20px;
 }
 
 .about-me .contenedor {
@@ -93,9 +94,9 @@
     border-radius: 25%;
 }
 
-.seccion-descripcion {
-    font-size: 1.2rem;
-    color: var(--color_0);
+.section-clara {
+    background-color: #ffffff;
+    padding: 100px 20px; /* Más espaciado */
 }
 
 .section-clara {
@@ -110,7 +111,9 @@
 }
 
 .badge {
-    margin: 5px;
+    background-color: #000000 !important;
+    font-weight: 300;
+    padding: 8px 16px;
 }
 
 .proyectos {
