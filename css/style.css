@@ -178,18 +178,18 @@ h1, h2, h3 {
 }
 
 .btn-info {
-    background-color: #2F2E41;
-    color: #6C63FF;
-    border: #2F2E41;
+    background-color: #000000; /* NEGRO */
+    color: #ffffff; /* TEXTO BLANCO */
+    border: 2px solid #000000; /* BORDE NEGRO */
     font-size: 1.1rem;
     margin: 20px;
     font-weight: bold;    
 }
 
 .btn-info:hover {
-    background-color: #6C63FF;
-    color:  #2F2E41;
-    border: #6C63FF;
+    background-color: #ffffff; /* BLANCO al pasar mouse */
+    color: #000000; /* TEXTO NEGRO */
+    border: 2px solid #000000; /* BORDE NEGRO */
 }
 
 .tips {
