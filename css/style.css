@@ -63,8 +63,9 @@
 }
 
 .seccion-titulo {
-    font-size: 2rem;
-    padding: 15px 0;
+    font-size: 3.5rem; /* Más grande */
+    padding: 40px 0;
+    font-weight: 200; /* Más delgado */
 }
 
 .seccion-texto {
@@ -72,7 +73,7 @@
 }
 
 .experiencia {
-    padding: 40px;
+    padding: 120px 40px; /* Más espacio arriba y abajo */
 }
 
 .experiencia-columna:hover {
@@ -119,7 +120,7 @@
 }
 
 .proyectos {
-    padding: 40px;
+    padding: 120px 40px; /* Más espacio */
 }
 
 .proyectos img {
@@ -173,23 +174,25 @@ section {
 }
 
 h1, h2, h3 {
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-weight: 200; /* Más delgado */
+    letter-spacing: 5px; /* Más espaciado */
 }
 
 .btn-info {
-    background-color: #2F2E41;
-    color: #6C63FF;
-    border: #2F2E41;
-    font-size: 1.1rem;
+    background-color: transparent; /* Transparente */
+    color: #000000; /* Negro */
+    border: 2px solid #000000; /* Borde negro */
+    font-size: 1rem;
     margin: 20px;
-    font-weight: bold;    
+    font-weight: 300; /* Más delgado */
+    padding: 15px 40px; /* Más grande */
+    border-radius: 0; /* Cuadrado */
 }
 
 .btn-info:hover {
-    background-color: #6C63FF;
-    color:  #2F2E41;
-    border: #6C63FF;
+    background-color: #000000; /* Negro al hover */
+    color: #ffffff; /* Texto blanco */
+    border: 2px solid #000000;
 }
 
 .tips {
@@ -269,9 +272,9 @@ h1, h2, h3 {
 
 .contact .rectangulo {
     margin-top: -5rem;
-    background-color: var(--color_1);
-    border-radius: 10px;
-    box-shadow: 0px 1px 4px 1px var(--color_3);
+    background-color: #000000; /* Negro sólido */
+    border-radius: 0px; /* Sin bordes */
+    box-shadow: none; /* Sin sombra */
 }
 
 .contact .row {
