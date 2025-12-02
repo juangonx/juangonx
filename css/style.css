@@ -1,9 +1,9 @@
 :root {
-    --color_0: #3F3D56;
-    --color_1: #6C63FF;
-    --color_2: #2F2E41;
-    --color_3: #CCCCCC;
-    --color_4: #FFB9B9;
+    --color_0: #000000;  /* Negro */
+    --color_1: #808080;  /* Gris medio */
+    --color_2: #1a1a1a;  /* Negro suave */
+    --color_3: #f5f5f5;  /* Gris muy claro */
+    --color_4: #666666;  /* Gris oscuro */
 }
 
 /* Navbar */
@@ -87,12 +87,12 @@
 }
 
 .experiencia i {
-    font-size: 2rem; /* Cambiar de 2.5rem a 2rem */
-    opacity: 0.7; /* AGREGAR esta línea */
-    color: var(--color_1);
-    background-color: var(--color_0);
-    padding: 8px 19px;
-    border-radius: 25%;
+    font-size: 2rem;
+    opacity: 0.7;
+    color: #000000;  /* Negro */
+    background-color: transparent;  /* Sin fondo */
+    padding: 0;  /* Sin padding */
+    border-radius: 0%;  /* Recto */
 }
 
 .section-clara {
