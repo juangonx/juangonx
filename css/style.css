@@ -9,7 +9,8 @@
 /* Navbar */
 .navbar {
     padding: 2rem;
-    background-color: #000000; /* NEGRO PURO */
+    background-color: #ffffff;  /* Blanco puro */
+    border-bottom: 1px solid #e0e0e0;  /* AGREGAR línea sutil */
 }
 
 .navbar-nav {
@@ -23,7 +24,7 @@
 
 /* MyClass */
 .myclass {
-    background-color: #000000; /* NEGRO PURO */
+    background-color: #ffffff;  /* Cambiar a blanco */
     min-height: 450px;
     text-align: center;
 }
@@ -34,7 +35,7 @@
 
 .myclass-main h2 {
     font-size: 1.5rem;
-    color: #ffffff; /* BLANCO */
+    color: var(--color_1);
 }
 
 .myclass-pic {
@@ -53,7 +54,7 @@
 .section-oscura {
     background-color: #1a1a1a;
     color: #ffffff;
-    padding: 200px 20px;
+    padding: 100px 20px;
 }
 
 .about-me .contenedor {
@@ -62,10 +63,8 @@
 }
 
 .seccion-titulo {
-    font-size: 5rem; /* ENORME */
-    padding: 60px 0;
-    font-weight: 100; /* ULTRA DELGADO */
-    text-transform: uppercase; /* MAYÚSCULAS */
+    font-size: 2rem;
+    padding: 15px 0;
 }
 
 .seccion-texto {
@@ -73,7 +72,7 @@
 }
 
 .experiencia {
-    padding: 200px 40px; /* Más espacio arriba y abajo */
+    padding: 40px;
 }
 
 .experiencia-columna:hover {
@@ -89,16 +88,17 @@
 }
 
 .experiencia i {
-    font-size: 4rem; /* MÁS GRANDE */
-    color: #ffffff; /* BLANCO */
-    background-color: transparent; /* SIN FONDO */
-    padding: 0;
-    border-radius: 0;
+    font-size: 2rem;
+    opacity: 0.7;
+    color: #000000;  /* Negro */
+    background-color: transparent;  /* Sin fondo */
+    padding: 0;  /* Sin padding */
+    border-radius: 0%;  /* Recto */
 }
 
 .section-clara {
     background-color: #ffffff;
-    padding: 200px 20px; /* Más espaciado */
+    padding: 100px 20px; /* Más espaciado */
 }
 
 .section-clara {
@@ -113,15 +113,13 @@
 }
 
 .badge {
-    background-color: transparent !important;
-    border: 2px solid #ffffff !important;
-    color: #ffffff !important;
+    background-color: #000000 !important;
     font-weight: 300;
-    padding: 10px 20px;
+    padding: 8px 16px;
 }
 
 .proyectos {
-    padding: 200px 40px; /* Más espacio */
+    padding: 40px;
 }
 
 .proyectos img {
@@ -174,31 +172,24 @@ section {
     justify-content: center;    
 }
 
-h1 {
-    font-size: 6rem !important; /* GIGANTE */
-    font-weight: 100;
-}
-
-h2 {
-    font-size: 2rem !important;
-    font-weight: 200;
+h1, h2, h3 {
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 .btn-info {
-    background-color: transparent; /* Transparente */
-    color: #000000; /* Negro */
-    border: 2px solid #000000; /* Borde negro */
-    font-size: 1rem;
+    background-color: #2F2E41;
+    color: #6C63FF;
+    border: #2F2E41;
+    font-size: 1.1rem;
     margin: 20px;
-    font-weight: 300; /* Más delgado */
-    padding: 15px 40px; /* Más grande */
-    border-radius: 0; /* Cuadrado */
+    font-weight: bold;    
 }
 
 .btn-info:hover {
-    background-color: #000000; /* Negro al hover */
-    color: #ffffff; /* Texto blanco */
-    border: 2px solid #000000;
+    background-color: #6C63FF;
+    color:  #2F2E41;
+    border: #6C63FF;
 }
 
 .tips {
@@ -278,9 +269,9 @@ h2 {
 
 .contact .rectangulo {
     margin-top: -5rem;
-    background-color: #000000; /* Negro sólido */
-    border-radius: 0px; /* Sin bordes */
-    box-shadow: none; /* Sin sombra */
+    background-color: var(--color_1);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px var(--color_3);
 }
 
 .contact .row {
@@ -400,43 +391,4 @@ footer {
     .recomendacion-texto {
         font-size: 18px;
     }
-}
-
-/* OCULTAR TODAS LAS IMÁGENES */
-.myclass-pic,
-.myclass-imagen,
-.proyecto img,
-.recomendacion-imagen,
-.footer-icon {
-    display: none !important;
-}
-
-/* MODO OSCURO TOTAL */
-body {
-    background-color: #000000 !important;
-    color: #ffffff !important;
-}
-
-.section-clara {
-    background-color: #000000 !important;
-    color: #ffffff !important;
-}
-
-.experiencia-title,
-.seccion-texto,
-.seccion-descripcion,
-p {
-    color: #ffffff !important;
-}
-
-.card {
-    background-color: #000000 !important;
-    border: 1px solid #ffffff !important;
-}
-
-.card-header,
-.list-group-item {
-    background-color: #000000 !important;
-    color: #ffffff !important;
-    border-color: #ffffff !important;
 }
